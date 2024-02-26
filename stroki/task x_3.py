@@ -1,0 +1,5 @@
+hh = input()
+a = hh.find('h')
+b = hh.rfind('h')
+posle = hh[a+1:b].replace('h','H')
+print(hh[:a+1]+posle+hh[b:])
